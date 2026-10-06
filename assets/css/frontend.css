@@ -1,0 +1,50 @@
+/* Plugin Development - Frontend Styles */
+
+.plugin-dev-widget {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: 20px 0;
+}
+
+.plugin-dev-widget h3 {
+    color: #0073aa;
+    margin-top: 0;
+}
+
+.plugin-dev-content {
+    line-height: 1.6;
+    color: #333;
+}
+
+.plugin-dev-badge {
+    display: inline-block;
+    background-color: #0073aa;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.plugin-dev-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.plugin-dev-list li {
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.plugin-dev-list li:last-child {
+    border-bottom: none;
+}
+
+.plugin-dev-list li:before {
+    content: "✓ ";
+    color: #0073aa;
+    font-weight: bold;
+    margin-right: 8px;
+}
