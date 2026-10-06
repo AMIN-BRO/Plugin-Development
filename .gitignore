@@ -1,0 +1,26 @@
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Node modules
+node_modules/
+
+# Composer
+vendor/
+composer.lock
+
+# WordPress
+wp-content/uploads/
+wp-content/cache/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
